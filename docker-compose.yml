@@ -1,0 +1,8 @@
+php:
+  image: php:7.4-apache
+  container_name: strategy
+  ports:
+    - "80:80"
+    - "443:443"
+  volumes: 
+    - /home/iagcs/Documentos/projetos/estudos/laravel/strategy:/var/www/html
